@@ -41,7 +41,7 @@ struct ContentView: View {
     var body: some View {
         Text("This is a test app.")
             .padding(.all, 10.0)
-            .background(Color("amber"))
+            .background(Color("amber")).cornerRadius(5)
     }
 }
 
